@@ -57,11 +57,11 @@
             <button class="quit">Quit Quiz</button>
         </div>
     </div>
-    <script src="index.js"></script>
+    <script>
+    
 
-</body>
-</html>
-</html>
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -714,5 +714,10 @@ let questions = [
       let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
       bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
   }
-    
+        
+       </script>
+
+</body>
+</html>
+</html> 
 
